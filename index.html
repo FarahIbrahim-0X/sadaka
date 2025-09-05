@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صدقة جارية</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #1a5e63 0%, #0d3236 100%);
+            color: #fff;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 800px;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        header {
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+            color: #d9b55b;
+            text-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            color: #c9c9c9;
+            margin-bottom: 10px;
+        }
+
+        .divider {
+            height: 3px;
+            width: 80px;
+            background: linear-gradient(90deg, transparent, #d9b55b, transparent);
+            margin: 25px auto;
+        }
+
+        .prayer {
+            background: rgba(0, 0, 0, 0.2);
+            padding: 30px;
+            border-radius: 15px;
+            margin: 25px 0;
+            line-height: 1.8;
+            font-size: 1.4rem;
+            text-align: center;
+            border-left: 4px solid #d9b55b;
+            border-right: 4px solid #d9b55b;
+        }
+
+        .dedication {
+            background: rgba(217, 181, 91, 0.15);
+            padding: 20px;
+            border-radius: 12px;
+            margin: 20px 0;
+            font-size: 1.2rem;
+            line-height: 1.6;
+            color: #d9b55b;
+            border: 1px solid rgba(217, 181, 91, 0.3);
+        }
+
+        .button-container {
+            margin: 40px 0 20px;
+        }
+
+        .quran-button {
+            display: inline-block;
+            padding: 16px 40px;
+            background: linear-gradient(135deg, #d9b55b 0%, #b8943a 100%);
+            color: #0d3236;
+            text-decoration: none;
+            font-size: 1.3rem;
+            font-weight: bold;
+            border-radius: 50px;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            border: none;
+            cursor: pointer;
+        }
+
+        .quran-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+            background: linear-gradient(135deg, #e0c270 0%, #c9a44a 100%);
+        }
+
+        .quran-button:active {
+            transform: translateY(1px);
+        }
+
+        footer {
+            margin-top: 40px;
+            color: #8a8a8a;
+            font-size: 0.9rem;
+        }
+
+        .decoration {
+            margin: 20px 0;
+            font-size: 2rem;
+            color: #d9b55b;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 25px;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            .prayer {
+                font-size: 1.2rem;
+                padding: 20px;
+            }
+
+            .dedication {
+                font-size: 1.1rem;
+                padding: 15px;
+            }
+
+            .quran-button {
+                padding: 14px 30px;
+                font-size: 1.1rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+
+            <p class="subtitle">رحمهم الله وغفر لهم وأسكنهم الفردوس
+            </p>
+        </header>
+
+        <div class="divider"></div>
+
+        <div class="prayer">
+            اللهم اغفر لأموات المسلمين، اللهم أبدلهم داراً خيراً من دارهم، وأهلاً خيراً من أهلهم، وأدخلهم الجنة، وأعذهم
+            من عذاب القبر ومن عذاب النار.
+            اللهم اجعل هذا العمل صدقة جارية تصل إليهم، وتثقل موازين حسناتهم، وترفع درجاتهم في جنات النعيم.
+        </div>
+
+
+        <div class="dedication">
+            <h3>صدقة جارية لكل من :</h3>
+
+            <p>خديجة رحمة الله عليها</p>
+            <p>دفعة المدينة المنورة - 2021</p>
+            <p>صدقة جارية على روح أموات المسلمين</p>
+
+        </div>
+
+        <div class="button-container">
+            <a href="https://quranapp.com/18" class="quran-button">قراءة سورة الكهف</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>اللهم تقبل منا ومنهم صالح الأعمال</p>
+    </footer>
+</body>
+
+</html>
